@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="LIXYUAN-CN" name="JunitTestSuites.TestSuite" skipped="0" tests="4" time="51.953" timestamp="2018-03-30T06:21:49">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="LIXYUAN-CN" />
+    <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.OATS_HOME" value="D:\Openscript" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
+    <property name="env.COMPUTERNAME" value="LIXYUAN-CN" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="env.HOMEPATH" value="\Users\lixyuan" />
+    <property name="user.name" value="lixyuan" />
+    <property name="ant.file.type.WhackaPodUIAuto" value="file" />
+    <property name="user.language" value="zh" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
+    <property name="ant.project.default-target" value="TestSuite.TestSuite" />
+    <property name="ant.project.name" value="WhackaPodUIAuto" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.asl.log" value="Destination=file" />
+    <property name="env.TEMP" value="C:\Users\lixyuan\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../../../Software/eclipse-jee-mars-R-win32-x86_64/eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
+    <property name="env.PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\opscode\chefdk\modules\" />
+    <property name="env.APPDATA" value="C:\Users\lixyuan\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\lixyuan" />
+    <property name="ant.library.dir" value="C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121\" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\lixyuan\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\lixyuan" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.CLASSPATH" value="C:\Program Files\Java\jdk1.8.0_121\" />
+    <property name="env.M2_HOME" value="C:\Program Files\apache-maven-3.3.9" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\opscode\chefdk\bin\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\lixyuan\AppData\Local\atom\bin;C:\Users\lixyuan\eclipse\java-neon\eclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.ChocolateyLastPathUpdate" value="周三 三月  7 11:21:31 2018" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JunitTestSuites.TestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\junit\TEST-JunitTestSuites.TestSuite.xml crashfile=D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\junitvmwatcher8648761014808847182.properties propsfile=D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\junit4261755204861672949.properties" />
+    <property name="java.class.path" value="D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\bin;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\hamcrest-core-1.3.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\hamcrest-core-1.3-javadoc.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\hamcrest-core-1.3-sources.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\junit-4.11.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\junit-4.11-javadoc.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\junit-4.11-sources.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\jsch-0.1.51.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\log4j-1.2.17.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\ojdbc8.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\ganymed-ssh2.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\java-json.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\javacsv-2.0.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\jsoup-1.10.2.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\selenium-server-standalone-3.3.1.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\mysql-connector-java-5.1.42-bin.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\oracle.http_client_11.1.1.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\org.codehaus.jackson.core.asl_1.0.0.0_1-8-3.jar;D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\lib\org.codehaus.jackson.mapper.asl_1.0.0.0_1-8-3.jar;C:\Program Files\Java\jdk1.8.0_121;C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\LIXYUAN-CN" />
+    <property name="env.windir" value="C:\windows" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="env.PROCESSOR_REVISION" value="3d04" />
+    <property name="java.io.tmpdir" value="C:\Users\lixyuan\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\windows" />
+    <property name="env.ChocolateyInstall" value="C:\ProgramData\chocolatey" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\lixyuan\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW" />
+    <property name="env.Path" value="C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\opscode\chefdk\bin\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\lixyuan\AppData\Local\atom\bin;C:\Users\lixyuan\eclipse\java-neon\eclipse;" />
+    <property name="basedir" value="D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto" />
+    <property name="ant.file.WhackaPodUIAuto" value="D:\workshop\SCB\Test\wapuiauto\WhackaPodUIAuto\build.xml" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\lixyuan\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="env.USERNAME" value="lixyuan" />
+    <property name="source" value="1.7" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="GBK" />
+    <property name="env.USERDOMAIN" value="LIXYUAN-CN" />
+    <property name="env.HELPER_SERVICE_PORT" value="7979" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="TestSuite.TestSuite" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="UITestCases.games.WhackaPodHomePage" name="test" time="9.517" />
+  <testcase classname="UITestCases.games.DeploytoK8s" name="test" time="5.915">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at framework.sharedFunctions.Finish.fail(Finish.java:30)
+	at UITestCases.BaseTestCase.fail(BaseTestCase.java:125)
+	at UITestCases.games.DeploytoK8s.test(DeploytoK8s.java:90)
+</failure>
+  </testcase>
+  <testcase classname="UITestCases.api.ColorAPI" name="test" time="0.245" />
+  <testcase classname="UITestCases.loghandler.FinishTest" name="test" time="9.288" />
+  <system-out><![CDATA[14:21:58.764 [main] framework.global.Configuration.init(Configuration.java:56)evel Configuration Initializing...
+14:21:58.777 [main] framework.global.Configuration.parseXML(Configuration.java:720)evel Reading server and Hardware info...
+14:21:58.778 [main] framework.global.Configuration.parseXML(Configuration.java:750)evel ServerConfig.xml is parsed successfully.
+14:21:58.779 [main] framework.global.Configuration.getlibrarydata(Configuration.java:832)evel Set SrvConfig successfully.
+14:21:58.781 [main] framework.sharedFunctions.Initialize.init(Initialize.java:22)evel Auto Initializing...
+14:21:58.787 [main] UITestCases.games.WhackaPodHomePage.setUpBeforeClass(WhackaPodHomePage.java:34)evel test case: Open Whack-a-pod home page
+14:22:08.574 [main] UITestCases.games.WhackaPodHomePage.test(WhackaPodHomePage.java:55)evel Open Whack a Pot Home Page
+14:22:17.995 [main] UITestCases.games.WhackaPodHomePage.test(WhackaPodHomePage.java:63)evel verify welcome shows in start-modal
+14:22:18.063 [main] UITestCases.games.WhackaPodHomePage.test(WhackaPodHomePage.java:65)evel IsStartModelDisplayed:true
+14:22:18.064 [main] UITestCases.games.WhackaPodHomePage.test(WhackaPodHomePage.java:68)evel verify welcome shows in start-modaltrue
+14:22:25.742 [main] UITestCases.games.DeploytoK8s.test(DeploytoK8s.java:53)evel test case: Click to Deploy
+14:22:25.743 [main] UITestCases.games.DeploytoK8s.test(DeploytoK8s.java:56)evel Click to Deploy
+14:22:30.840 [main] UITestCases.games.DeploytoK8s.test(DeploytoK8s.java:61)evel Pods shows up
+14:22:31.591 [main] exception.UnExpectedException.<init>(UnExpectedException.java:19)evel Errors on verification.
+14:22:31.594 [main] exception.UnExpectedException.<init>(UnExpectedException.java:20)evel 20180330-142230_UITestCases.games.DeploytoK8s.png
+14:22:31.603 [main] exception.UnExpectedException.<init>(UnExpectedException.java:21)evel no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='pod-0']/div"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'LIXYUAN-CN', ip: '140.83.188.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\lixyuan\AppData\Local\Temp\scoped_dir69656_5187}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0dd384f4b2072292e71c37afc0ecd9ce
+*** Element info: {Using=xpath, value=//*[@id='pod-0']/div}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='pod-0']/div"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'LIXYUAN-CN', ip: '140.83.188.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\lixyuan\AppData\Local\Temp\scoped_dir69656_5187}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0dd384f4b2072292e71c37afc0ecd9ce
+*** Element info: {Using=xpath, value=//*[@id='pod-0']/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at framework.sharedFunctions.HomePage.isPodsDisplayed(HomePage.java:115)
+	at UITestCases.games.DeploytoK8s.test(DeploytoK8s.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+14:22:31.684 [main] UITestCases.api.ColorAPI.test(ColorAPI.java:53)evel test case: color api service
+14:22:31.686 [main] UITestCases.api.ColorAPI.test(ColorAPI.java:63)evel check color API is running or not
+14:22:31.823 [main] framework.sharedFunctions.HomePage.clorAPIRunning(HomePage.java:81)evel color api: rgba(51, 51, 51, 1)
+14:22:31.885 [main] UITestCases.api.ColorAPI.test(ColorAPI.java:79)evel assert: true
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 16137
+Only local connections are allowed.
+三月 30, 2018 2:21:58 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+log4j:WARN No appenders could be found for logger (framework.objects.CommonVariables).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

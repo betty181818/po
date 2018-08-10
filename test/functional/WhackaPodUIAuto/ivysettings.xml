@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-settings>
+  <settings defaultResolver="main" />
+  <caches defaultCacheDir="/home/oracle/ivy" />
+  <!--Authentication required for publishing (deployment). 'Artifactory Realm' is the realm used by Artifactory so don't change it.-->
+  <credentials host="infbjvm166.cn.oracle.com" realm="Artifactory Realm" username="admin" passwd="password" />
+  <resolvers>
+    <chain name="main">
+	<!--
+	<filesystem name="libraries">
+        <artifact pattern="D:/LTFSLEAutomation/LTFS_LE_COMM/LTFS_Project/build/[artifact].[ext]"/>
+	</filesystem>
+	-->
+	  <ibiblio name="public" m2compatible="true" root="http://infbjvm166.cn.oracle.com:8081/artifactory/LTFSLEAutomation" />
+	  <url name="publish">
+		You can use  m2compatible="true" instead of specifying your own pattern 
+		<ivy pattern="http://infbjvm166.cn.oracle.com:8081/artifactory/LTFSLEAutomation/[organization]/[module]/[revision]/ivy-[revision].xml" />
+		<artifact pattern="http://infbjvm166.cn.oracle.com:8081/artifactory/LTFSLEAutomation/[organization]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+	  </url>
+    </chain>
+  </resolvers>
+</ivy-settings>

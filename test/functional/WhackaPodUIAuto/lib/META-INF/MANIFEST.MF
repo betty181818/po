@@ -1,0 +1,74 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: Nicholas
+Build-Jdk: 1.7.0_25
+Implementation-Title: Apache Log4j Core
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 2.0-rc1
+Specification-Title: Apache Log4j Core
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 2.0-rc1
+X-Compile-Source-JDK: 1.6
+X-Compile-Target-JDK: 1.6
+Bnd-LastModified: 1391972669397
+Bundle-Description: The Log4j Implementation
+Bundle-DocURL: http://logging.apache.org/log4j/2.x/log4j-core/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Log4j Core
+Bundle-SymbolicName: org.apache.logging.log4j-core
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.0.0.rc1
+Export-Package: org.apache.logging.log4j.core.appender.rewrite;version
+ ="2.0.0.rc1",org.apache.logging.log4j.core.impl;version="2.0.0.rc1",o
+ rg.apache.logging.log4j.core.pattern;version="2.0.0.rc1",org.apache.l
+ ogging.log4j.core.appender.db.jpa.converter;version="2.0.0.rc1",org.a
+ pache.logging.log4j.core.appender.rolling.action;version="2.0.0.rc1",
+ org.apache.logging.log4j.core.appender.db.nosql.couchdb;version="2.0.
+ 0.rc1",org.apache.logging.log4j.core.web;version="2.0.0.rc1",org.apac
+ he.logging.log4j.core.filter;version="2.0.0.rc1",org.apache.logging.l
+ og4j.core;version="2.0.0.rc1",org.apache.logging.log4j.core.appender.
+ db.nosql.mongodb;version="2.0.0.rc1",org.apache.logging.log4j.core.lo
+ okup;version="2.0.0.rc1",org.apache.logging.log4j.core.appender.db.no
+ sql;version="2.0.0.rc1",org.apache.logging.log4j.core.appender.db.jdb
+ c;version="2.0.0.rc1",org.apache.logging.log4j.core.appender;version=
+ "2.0.0.rc1",org.apache.logging.log4j.core.appender.db;version="2.0.0.
+ rc1",org.apache.logging.log4j.core.selector;version="2.0.0.rc1",org.a
+ pache.logging.log4j.core.jmx;version="2.0.0.rc1",org.apache.logging.l
+ og4j.core.async;version="2.0.0.rc1",org.apache.logging.log4j.core.hel
+ pers;version="2.0.0.rc1",org.apache.logging.log4j.core.config.plugins
+ ;version="2.0.0.rc1",org.apache.logging.log4j.core.layout;version="2.
+ 0.0.rc1",org.apache.logging.log4j.core.net;version="2.0.0.rc1",org.ap
+ ache.logging.log4j.core.config;version="2.0.0.rc1",org.apache.logging
+ .log4j.core.appender.db.jpa;version="2.0.0.rc1",org.apache.logging.lo
+ g4j.core.appender.rolling;version="2.0.0.rc1",org.apache.logging.log4
+ j.core.appender.routing;version="2.0.0.rc1",org.apache.logging.log4j.
+ core.net.ssl;version="2.0.0.rc1"
+Fragment-Host: org.apache.logging.log4j-api;bundle-version=2.0.0.rc1
+Import-Package: com.fasterxml.jackson.core,com.fasterxml.jackson.core.
+ type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.no
+ de,com.lmax.disruptor,com.lmax.disruptor.dsl,com.lmax.disruptor.util,
+ com.mongodb,javax.activation,javax.crypto,javax.jms,javax.mail,javax.
+ mail.internet,javax.mail.util,javax.management,javax.naming,javax.net
+ ,javax.net.ssl,javax.persistence,javax.servlet,javax.sql,javax.xml.pa
+ rsers,javax.xml.transform,javax.xml.transform.stream,javax.xml.valida
+ tion,org.apache.logging.log4j,org.apache.logging.log4j.message,org.ap
+ ache.logging.log4j.spi,org.apache.logging.log4j.status,org.apache.log
+ ging.log4j.util,org.bson,org.lightcouch,org.osgi.framework,org.osgi.f
+ ramework.wiring,org.w3c.dom,org.xml.sax
+Include-Resource: Log4j-config.xsd=src/main/resources/Log4j-config.xsd
+ ,Log4j-events.dtd=src/main/resources/Log4j-events.dtd,Log4j-events.xs
+ d=src/main/resources/Log4j-events.xsd,META-INF/LICENSE=src/main/resou
+ rces/META-INF/LICENSE,META-INF/log4j-provider.properties=src/main/res
+ ources/META-INF/log4j-provider.properties,META-INF/NOTICE=src/main/re
+ sources/META-INF/NOTICE,META-INF/services/javax.servlet.ServletContai
+ nerInitializer=src/main/resources/META-INF/services/javax.servlet.Ser
+ vletContainerInitializer,META-INF/web-fragment.xml=src/main/resources
+ /META-INF/web-fragment.xml
+Log4jReleaseCount: eleventh
+Log4jReleaseVersion: 2.0-rc1
+Private-Package: .
+Tool: Bnd-1.50.0
+

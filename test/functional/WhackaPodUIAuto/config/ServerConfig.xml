@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><config name="pre_migration">
+    <server id="01" name="CI">		
+		<UIUrl>https://app.wercker.com/sessions/new</UIUrl>
+		<UIAdvancedUrl>http://129.146.158.60:8080/hello</UIAdvancedUrl>
+	</server>
+</config>

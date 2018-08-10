@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: omstk-sample-helloworld-deployment
+spec:
+  selector:
+    matchLabels:
+      app: omstk-sample-helloworld
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: omstk-sample-helloworld
+    spec:
+      containers:
+      - name: microsvctk
+    # enter the path to your image, be sure to include the correct region prefix    
+        image: iad.ocir.io/oraclekennguyen/oardc/devops_microservice_toolkit:microsvctk
+        ports:
+        - name: microsvctk-http
+          containerPort: 8080
+      imagePullSecrets:
+      - name: ocirsecret

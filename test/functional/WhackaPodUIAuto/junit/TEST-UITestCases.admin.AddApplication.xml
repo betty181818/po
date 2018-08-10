@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="BEIWAN-CN" name="UITestCases.admin.AddApplication" skipped="0" tests="1" time="141.258" timestamp="2018-07-19T02:59:28">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="BEIWAN-CN" />
+    <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.OATS_HOME" value="C:\OracleATS" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_171\lib\resources.jar;C:\Program Files\Java\jre1.8.0_171\lib\rt.jar;C:\Program Files\Java\jre1.8.0_171\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_171\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_171\lib\jce.jar;C:\Program Files\Java\jre1.8.0_171\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_171\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_171\classes" />
+    <property name="env.COMPUTERNAME" value="BEIWAN-CN" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.runtime.version" value="1.8.0_171-b25" />
+    <property name="env.HOMEPATH" value="\Users\beiwan" />
+    <property name="user.name" value="beiwan" />
+    <property name="ant.file.type.WhackaPodUIAuto" value="file" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_171\bin" />
+    <property name="ant.project.default-target" value="AddApplication" />
+    <property name="ant.project.name" value="WhackaPodUIAuto" />
+    <property name="java.version" value="1.8.0_171" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\beiwan\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_171\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_171" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\beiwan\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.171-b25" />
+    <property name="env.USERPROFILE" value="C:\Users\beiwan" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\beiwan\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\beiwan" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Python27\;C:\Python27\Scripts;C:\Users\beiwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;;C:\Users\beiwan\Desktop;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto\bin;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\hamcrest-core-1.3.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\hamcrest-core-1.3-javadoc.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\hamcrest-core-1.3-sources.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\junit-4.11.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\junit-4.11-javadoc.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\junit-4.11-sources.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\jsch-0.1.51.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\log4j-1.2.17.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\ojdbc8.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\ganymed-ssh2.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\java-json.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\javacsv-2.0.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\jsoup-1.10.2.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\selenium-server-standalone-3.3.1.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\mysql-connector-java-5.1.42-bin.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\oracle.http_client_11.1.1.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\org.codehaus.jackson.core.asl_1.0.0.0_1-8-3.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\org.codehaus.jackson.mapper.asl_1.0.0.0_1-8-3.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner UITestCases.admin.AddApplication skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Wercher\wercher\test\functional\WhackaPodUIAuto\junit\TEST-UITestCases.admin.AddApplication.xml crashfile=C:\Wercher\wercher\test\functional\WhackaPodUIAuto\junitvmwatcher6422617228630544409.properties propsfile=C:\Wercher\wercher\test\functional\WhackaPodUIAuto\junit8934626885914629544.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\BEIWAN-CN" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.io.tmpdir" value="C:\Users\beiwan\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="8e09" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_171\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\beiwan\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Python27\;C:\Python27\Scripts;C:\Users\beiwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;;C:\Users\beiwan\Desktop;" />
+    <property name="basedir" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto" />
+    <property name="ant.file.WhackaPodUIAuto" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto\build.xml" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+    <property name="env.USERNAME" value="beiwan" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="BEIWAN-CN" />
+    <property name="env.HELPER_SERVICE_PORT" value="7979" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="AddApplication" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="UITestCases.admin.AddApplication" name="test" time="138.222" />
+  <system-out><![CDATA[10:59:28.630 [main] framework.global.Configuration.init(Configuration.java:56)evel Configuration Initializing...
+10:59:28.639 [main] framework.global.Configuration.parseXML(Configuration.java:720)evel Reading server and Hardware info...
+10:59:28.640 [main] framework.global.Configuration.parseXML(Configuration.java:750)evel ServerConfig.xml is parsed successfully.
+10:59:28.640 [main] framework.global.Configuration.getlibrarydata(Configuration.java:832)evel Set SrvConfig successfully.
+10:59:28.707 [main] framework.global.Configuration.init(Configuration.java:56)evel Configuration Initializing...
+10:59:28.714 [main] framework.global.Configuration.parseXML(Configuration.java:720)evel Reading server and Hardware info...
+10:59:28.714 [main] framework.global.Configuration.parseXML(Configuration.java:750)evel ServerConfig.xml is parsed successfully.
+10:59:28.714 [main] framework.global.Configuration.getlibrarydata(Configuration.java:832)evel Set SrvConfig successfully.
+10:59:28.715 [main] UITestCases.admin.AddApplication.setUpBeforeClass(AddApplication.java:40)evel use wercker to create application:
+10:59:31.741 [main] UITestCases.admin.AddApplication.test(AddApplication.java:66)evel read file:
+10:59:31.742 [main] UITestCases.admin.AddApplication.test(AddApplication.java:71)evel open wercher:
+10:59:54.350 [main] UITestCases.admin.AddApplication.test(AddApplication.java:77)evel input the wercher username from file:
+10:59:54.496 [main] UITestCases.admin.AddApplication.test(AddApplication.java:80)evel input the wercher password from file:
+10:59:54.611 [main] UITestCases.admin.AddApplication.test(AddApplication.java:83)evel click lgoin github :
+10:59:59.467 [main] UITestCases.admin.AddApplication.test(AddApplication.java:85)evel input github username from file:
+10:59:59.589 [main] UITestCases.admin.AddApplication.test(AddApplication.java:89)evel input github password from file :
+10:59:59.700 [main] UITestCases.admin.AddApplication.test(AddApplication.java:92)evel click github login button :
+11:00:19.198 [main] UITestCases.admin.AddApplication.test(AddApplication.java:106)evel click create you first application button :
+11:00:29.294 [main] UITestCases.admin.AddApplication.test(AddApplication.java:109)evel click select scm GitHub :
+11:00:39.370 [main] UITestCases.admin.AddApplication.test(AddApplication.java:112)evel click select scm GitHub page next button:
+11:00:49.465 [main] UITestCases.admin.AddApplication.test(AddApplication.java:115)evel select repository:
+11:00:59.533 [main] UITestCases.admin.AddApplication.test(AddApplication.java:118)evel in select repository click next button:
+11:01:09.598 [main] UITestCases.admin.AddApplication.test(AddApplication.java:121)evel select setup ssh key
+11:01:19.687 [main] UITestCases.admin.AddApplication.test(AddApplication.java:124)evel in select setup ssh key page click next button:
+11:01:29.756 [main] UITestCases.admin.AddApplication.test(AddApplication.java:127)evel select public checkbox:
+11:01:39.855 [main] UITestCases.admin.AddApplication.test(AddApplication.java:130)evel click create button:
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 22693
+Only local connections are allowed.
+[1531969166.305][SEVERE]: bind() returned an error: An attempt was made to access a socket in a way forbidden by its access permissions. (0x271D)
+Jul 19, 2018 10:59:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="BEIWAN-CN" name="UITestCases.admin.AddApplicationandFlow" skipped="0" tests="1" time="608.072" timestamp="2018-07-23T07:19:49">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="BEIWAN-CN" />
+    <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.OATS_HOME" value="C:\OracleATS" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_171\lib\resources.jar;C:\Program Files\Java\jre1.8.0_171\lib\rt.jar;C:\Program Files\Java\jre1.8.0_171\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_171\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_171\lib\jce.jar;C:\Program Files\Java\jre1.8.0_171\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_171\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_171\classes" />
+    <property name="env.COMPUTERNAME" value="BEIWAN-CN" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.runtime.version" value="1.8.0_171-b25" />
+    <property name="env.HOMEPATH" value="\Users\beiwan" />
+    <property name="user.name" value="beiwan" />
+    <property name="ant.file.type.WhackaPodUIAuto" value="file" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_171\bin" />
+    <property name="ant.project.default-target" value="AddApplicationandFlow" />
+    <property name="ant.project.name" value="WhackaPodUIAuto" />
+    <property name="java.version" value="1.8.0_171" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\beiwan\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_171\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_171" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\beiwan\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.171-b25" />
+    <property name="env.USERPROFILE" value="C:\Users\beiwan" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\beiwan\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\beiwan" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Python27\;C:\Python27\Scripts;C:\Users\beiwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;;C:\Users\beiwan\Desktop;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto\bin;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\hamcrest-core-1.3.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\hamcrest-core-1.3-javadoc.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\hamcrest-core-1.3-sources.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\junit-4.11.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\junit-4.11-javadoc.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\junit-4.11-sources.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\jsch-0.1.51.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\log4j-1.2.17.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\ojdbc8.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\ganymed-ssh2.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\java-json.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\javacsv-2.0.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\jsoup-1.10.2.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\selenium-server-standalone-3.3.1.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\mysql-connector-java-5.1.42-bin.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\oracle.http_client_11.1.1.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\org.codehaus.jackson.core.asl_1.0.0.0_1-8-3.jar;C:\Wercher\wercher\test\functional\WhackaPodUIAuto\lib\org.codehaus.jackson.mapper.asl_1.0.0.0_1-8-3.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner UITestCases.admin.AddApplicationandFlow skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Wercher\wercher\test\functional\WhackaPodUIAuto\junit\TEST-UITestCases.admin.AddApplicationandFlow.xml crashfile=C:\Wercher\wercher\test\functional\WhackaPodUIAuto\junitvmwatcher6802362903938358234.properties propsfile=C:\Wercher\wercher\test\functional\WhackaPodUIAuto\junit3786539625442229378.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\BEIWAN-CN" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.io.tmpdir" value="C:\Users\beiwan\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="8e09" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_171\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\beiwan\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Python27\;C:\Python27\Scripts;C:\Users\beiwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;;C:\Users\beiwan\Desktop;" />
+    <property name="basedir" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto" />
+    <property name="ant.file.WhackaPodUIAuto" value="C:\Wercher\wercher\test\functional\WhackaPodUIAuto\build.xml" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\beiwan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+    <property name="env.USERNAME" value="beiwan" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="BEIWAN-CN" />
+    <property name="env.HELPER_SERVICE_PORT" value="7979" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="AddApplicationandFlow" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="UITestCases.admin.AddApplicationandFlow" name="test" time="600.035" />
+  <system-out><![CDATA[15:19:49.877 [main] framework.global.Configuration.init(Configuration.java:56)evel Configuration Initializing...
+15:19:49.890 [main] framework.global.Configuration.parseXML(Configuration.java:720)evel Reading server and Hardware info...
+15:19:49.891 [main] framework.global.Configuration.parseXML(Configuration.java:750)evel ServerConfig.xml is parsed successfully.
+15:19:49.892 [main] framework.global.Configuration.getlibrarydata(Configuration.java:832)evel Set SrvConfig successfully.
+15:19:49.994 [main] framework.global.Configuration.init(Configuration.java:56)evel Configuration Initializing...
+15:19:49.999 [main] framework.global.Configuration.parseXML(Configuration.java:720)evel Reading server and Hardware info...
+15:19:50.000 [main] framework.global.Configuration.parseXML(Configuration.java:750)evel ServerConfig.xml is parsed successfully.
+15:19:50.000 [main] framework.global.Configuration.getlibrarydata(Configuration.java:832)evel Set SrvConfig successfully.
+15:19:50.001 [main] UITestCases.admin.AddApplicationandFlow.setUpBeforeClass(AddApplicationandFlow.java:43)evel use wercker to create application:
+15:19:58.016 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:68)evel read file:
+15:19:58.018 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:72)evel open wercher:
+15:20:03.084 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:92)evel input the wercher username from file:
+15:20:03.239 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:95)evel input the wercher password from file:
+15:20:03.383 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:98)evel click lgoin github :
+15:20:08.370 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:100)evel input github username from file:
+15:20:08.524 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:104)evel input github password from file :
+15:20:08.648 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:107)evel click github login button :
+15:20:15.391 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:111)evel if the authorize button display click it:
+15:20:18.413 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:117)evel click the plus to create application:
+15:20:18.495 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:119)evel dropdown list choose create application:
+15:20:28.597 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:124)evel click select scm GitHub :
+15:20:38.657 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:127)evel click select scm GitHub page next button:
+15:20:48.749 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:130)evel select repository:
+15:20:59.067 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:135)evel in select repository click next button:
+15:21:09.119 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:138)evel select setup ssh key
+15:21:19.190 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:141)evel in select setup ssh key page click next button:
+15:21:29.245 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:144)evel select public checkbox:
+15:21:39.308 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:147)evel click create button:
+15:21:54.371 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:154)evel click wercher img:
+15:21:59.473 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:157)evel click the exist application:
+15:22:04.582 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:161)evel click the Enviroment tab:
+15:22:09.662 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:165)evel Add SONAR_URL
+15:22:26.150 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:177)evel Add SONAR_PROJECT_KEY
+15:22:42.638 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:189)evel Add OCIR_USERNAME
+15:22:59.069 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:201)evel Add OCIR_PASSWORD
+15:23:18.862 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:216)evel Add OCIR_TAG
+15:23:33.138 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:228)evel Add OCIR_REPOSITORY
+15:23:47.595 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:240)evel Add OKE_NAME_PREFIX
+15:24:01.975 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:252)evel Add OKE_USER_OCID
+15:24:16.692 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:264)evel Add OKE_USER_FINGERPRINT
+15:24:31.346 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:276)evel Add OKE_API_KEY
+15:25:04.199 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:292)evel Add OKE_TENANCY_OCID
+15:25:19.764 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:304)evel Add OKE_REGION
+15:25:40.080 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:316)evel Add OKE_COMPARTMENT_OCID
+15:26:00.858 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:329)evel Add OCIR_REGISTORY
+15:26:21.302 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:344)evel click wercher img:
+15:26:26.411 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:347)evel click the exist application:
+15:26:31.509 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:351)evel click the workflows tab:
+15:26:36.584 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:354)evel click the add new pipeline:
+15:26:41.697 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:357)evel choose hook type default:
+15:26:51.778 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:366)evel input the pipeline name push-to-registry :
+15:26:56.972 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:371)evel input the YML pipeline name push-to-registry:
+15:27:02.136 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:375)evel click create pipeline button:
+15:27:07.232 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:379)evel click the workflows tab:
+15:27:12.318 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:382)evel click the add new pipeline:
+15:27:17.441 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:385)evel choose hook type default:
+15:27:27.523 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:390)evel input the pipeline name provision-oke :
+15:27:32.783 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:395)evel input the YML pipeline name provision-oke:
+15:27:38.035 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:399)evel click create pipeline button:
+15:27:43.127 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:403)evel click the workflows tab:
+15:27:48.285 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:406)evel click the add new pipeline:
+15:27:53.645 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:409)evel choose hook type default:
+15:28:03.727 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:414)evel input the pipeline name deploy-oke:
+15:28:08.933 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:419)evel input the YML pipeline name deploy-oke:
+15:28:14.083 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:423)evel click create pipeline button:
+15:28:19.165 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:427)evel click the workflows tab:
+15:28:24.244 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:430)evel click the add new pipeline:
+15:28:29.412 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:433)evel choose hook type default:
+15:28:39.492 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:438)evel input the pipeline name test:
+15:28:44.697 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:443)evel input the YML pipeline name test:
+15:28:49.841 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:447)evel click create pipeline button:
+15:28:54.937 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:452)evel click the workflows tab:
+15:29:00.060 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:455)evel click the add new pipeline:
+15:29:05.234 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:458)evel choose hook type default:
+15:29:15.309 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:463)evel input the pipeline name destroy-oke:
+15:29:20.575 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:468)evel input the YML pipeline name destroy-oke:
+15:29:25.750 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:472)evel click create pipeline button:
+15:29:30.858 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:477)evel click the workflows tab:
+15:29:35.954 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:480)evel add workflow push-to-registry:
+15:29:39.682 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:487)evel add wrokflow provision-oke:
+15:29:43.324 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:495)evel add wrokflow deploy-oke:
+15:29:46.963 [main] UITestCases.admin.AddApplicationandFlow.test(AddApplicationandFlow.java:503)evel add wrokflow test:
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 18617
+Only local connections are allowed.
+Jul 23, 2018 3:19:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

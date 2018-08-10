@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: omstk-sample-helloworld-service
+  labels: 
+      app: omstk-sample-helloworld 
+spec:
+  ports:
+  - name: http
+    protocol: TCP
+    port: 8080
+    targetPort: 8080
+  selector:
+    app: omstk-sample-helloworld
+  type: LoadBalancer
+

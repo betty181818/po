@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+
+	<info organisation="OMSP" module="OMSPPreMigUIAuto">
+	</info>
+	
+	<configurations>
+      <conf name="oracle-war" description="Runtime dependencies for deploying to an Oracle container."/>
+      <conf name="compile" extends="oracle-war" visibility="private" description="Additional compile time dependencies required to build the application."/>
+    </configurations>
+ 
+	<publications>
+	  <artifact name="OMSPPreMigUIAuto" type="zip" ext="zip" />
+	</publications>
+	
+</ivy-module>
